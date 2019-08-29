@@ -38,7 +38,7 @@ class AssetListViewController: UICollectionViewController, UICollectionViewDeleg
         if UIApplication.shared.statusBarOrientation.isPortrait {
             numberOfColumns = nohanaImagePickerController.numberOfColumnsInPortrait
         }
-        let cellMargin: CGFloat = 2
+        let cellMargin: CGFloat = 1
         let cellWidth = (view.frame.width - cellMargin * (CGFloat(numberOfColumns) - 1)) / CGFloat(numberOfColumns)
         return CGSize(width: cellWidth, height: cellWidth)
     }

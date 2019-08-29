@@ -56,7 +56,7 @@ class ExpandingAnimationController: NSObject, UIViewControllerAnimatedTransition
         transitionContext.containerView.addSubview(expandingImageView)
         toVC.view.alpha = 0
         toVC.collectionView?.isHidden = true
-        toVC.view.backgroundColor = UIColor.black
+        toVC.view.backgroundColor = .white
         fromCell.alpha = 0
 
         UIView.animate(
